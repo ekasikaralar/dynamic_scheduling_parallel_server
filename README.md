@@ -278,7 +278,7 @@ Available simulation types: `neural_network_simulation`, `benchmarks_simulation`
 If you use this code, please cite:
 
 ```bibtex
-@article{ata2025dynamic,
+@article{ata2026dynamic,
   title   = {Dynamic Scheduling of a Parallel-Server Queueing System:
              A Computational Method for High-Dimensional Problems},
   author  = {Ata, Baris and Kasikaralar, Ebru},
