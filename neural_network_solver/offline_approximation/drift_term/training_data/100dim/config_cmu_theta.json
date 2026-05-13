@@ -1,0 +1,14 @@
+{
+  "cust_dim":100,
+  "server_dim":70,
+  "scale": 682,
+  "policy":"cmu_theta",
+  "state_file":"state_observations.csv",
+  "cost_file": "cost_scaled.csv",
+  "mu_file": "mu_scaled.csv",
+  "theta_file":"theta_scaled.csv",
+  "agents_file": "agents_scaled.csv",
+  "xi_file":"xi_scaled.csv",
+  "output_file":"drift_term_output_cmu_theta_100dim.csv"
+}
+

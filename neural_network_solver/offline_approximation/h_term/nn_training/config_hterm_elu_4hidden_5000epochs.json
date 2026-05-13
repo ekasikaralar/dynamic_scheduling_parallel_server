@@ -1,0 +1,21 @@
+{
+    "data_config": {
+        "state_file": "state_observations.csv",
+        "gradient_file": "gradient_observations.csv",
+        "obj_file": "h_term_obj_value.csv"
+},
+
+    "net_config": {
+        "init_learning": 0.01,
+	    "epochs":5000,	
+        "print_interval":10,
+        "num_neurons":150,
+        "gamma": 0.5,
+	    "milestones":[150,350],
+        "activation": "eLU",
+        "num_layers":4,  
+	    "valid_size":4096,
+	    "batch_size":4096
+    }
+}
+

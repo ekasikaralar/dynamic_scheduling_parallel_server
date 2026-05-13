@@ -1,0 +1,14 @@
+{
+  "class_no": 2,
+  "station_no": 2,
+  "num_iterations": 10000,
+  "arrival_rate": 5043.12,
+  "gamma": 4.566e-6,
+  "agents_path": "/data/agents_2dim.csv",
+  "mu_hourly_path": "/data/mu_hourly_2dim.csv",
+  "theta_hourly_path": "/data/theta_hourly_2dim.csv",
+  "arr_cdf_path": "/data/arr_cdf_2dim.csv",
+  "cost_rate_path": "/data/cost_2dim.csv",
+  "xi_path": "/data/xi_optimal_2dim.csv",
+  "policy_path":"/data/policy.csv"
+}

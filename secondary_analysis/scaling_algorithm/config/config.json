@@ -1,0 +1,13 @@
+{
+  "mu": "mu_hourly.csv",
+  "xi": "xi_optimal_main_100utilization.csv",
+  "agents": "agents.csv",
+  "theta": "theta_hourly.csv",
+  "L": 100,
+  "I": 70,
+  "N_tot": 2500,
+  "N_min": 25,
+  "delta": 0.01,
+  "seed": 42,
+  "output_dir": "/project/Call_Center_Control/problem_100dim/scale/"
+}

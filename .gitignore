@@ -1,0 +1,6 @@
+.DS_Store
+
+# 100dim observation files exceed GitHub LFS 2 GB limit — regenerate via pipeline
+neural_network_solver/offline_approximation/drift_term/training_data/100dim/state_observations.csv
+neural_network_solver/offline_approximation/h_term/output_data/configs/100dim/data/state_observations.csv
+neural_network_solver/offline_approximation/h_term/output_data/configs/100dim/data/gradient_observations.csv

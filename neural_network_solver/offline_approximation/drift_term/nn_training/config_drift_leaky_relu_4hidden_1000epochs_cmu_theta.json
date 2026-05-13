@@ -1,0 +1,20 @@
+{
+    "data_config": {
+        "state_file": "state_observations.csv",
+        "drift_file": "drift_term_output_cmu_theta.csv"
+},
+
+    "net_config": {
+        "init_learning": 0.01,
+	    "epochs":1000,	
+        "print_interval":10,
+        "num_neurons":150,
+        "gamma": 0.1,
+	    "milestones":[150,350],
+        "activation": "LeakyReLU",
+        "num_layers":4,  
+	    "valid_size":4096,
+	    "batch_size":4096
+    }
+}
+

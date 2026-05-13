@@ -1,0 +1,12 @@
+{
+  "class_no":2,
+  "station_no":2,
+  "num_obs":1000000,
+  "r": 100,
+  "state_upper_bound":600,
+  "agent_file": "/data/agents_2dim.csv",
+  "mu_file": "/data/mu_hourly_2dim.csv",
+  "cost_file": "/data/cost_2dim.csv",
+  "theta_file":"/data/theta_hourly_2dim.csv",
+  "xi_file":"/data/xi_optimal_2dim.csv"
+}

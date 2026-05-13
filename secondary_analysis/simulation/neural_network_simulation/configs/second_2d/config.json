@@ -1,0 +1,20 @@
+{
+  "class_no": 2,
+  "station_no": 2,
+  "num_iterations": 10000,
+  "scaling_factor": 100,
+  "num_hidden_layers": 4, 
+  "activation_function": "SiLU",
+  "leaky_relu_slope": 0,
+  "arrival_rate": 2660,
+  "agents_path": "/data/agents_2dim.csv",
+  "mu_hourly_path":"/data/mu_hourly_2dim.csv",
+  "theta_hourly_path":"/data/theta_hourly_2dim.csv",
+  "arr_cdf_path":"/data/arr_cdf_2dim.csv",
+  "cost_rate_path":"/data/cost_2dim.csv", 
+  "xi_path":"/data/xi_optimal_2dim.csv",
+  "x_star_path":"/data/x_opt_2dim.csv",
+  "nn_folder_name":"/policy/cppweights_drift_leaky_relu_4hidden_1000epochs_cmu_allbn_hterm_elu_4hidden_5000epochs_allbn_T01N200_silu_4hidden_6k_100neurons_256_batch/",
+  "gamma": 4.566e-6,
+  "apply_softplus": true
+}

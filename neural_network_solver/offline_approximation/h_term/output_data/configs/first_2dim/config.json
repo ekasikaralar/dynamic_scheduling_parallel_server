@@ -1,0 +1,13 @@
+{
+  "cust_dim":2,
+  "server_dim":2,
+  "scale": 100,
+  "gradient_file":"/data/gradient_observations.csv",
+  "state_file":"/data/state_observations.csv",
+  "cost_file":"/data/cost_2dim.csv",
+  "mu_file":"/data/mu_hourly_2dim.csv",
+  "theta_file":"/data/theta_hourly_2dim.csv",
+  "agents_file":"/data/agents_2dim.csv",
+  "xi_file":"/data/xi_optimal_2dim.csv",
+  "output_file": "h_term_obj_value.csv"
+}

@@ -1,0 +1,13 @@
+{
+  "cust_dim":2,
+  "server_dim":2,
+  "scale": 100,
+  "policy":"cmu",
+  "state_file":"state_observations.csv",
+  "cost_file":"cost_2dim.csv",
+  "mu_file":"mu_hourly_2dim.csv",
+  "theta_file":"theta_hourly_2dim.csv",
+  "agents_file":"agents_2dim.csv",
+  "xi_file":"xi_optimal_2dim.csv",
+  "output_file":"drift_term_output_cmu.csv"
+}

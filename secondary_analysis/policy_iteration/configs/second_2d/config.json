@@ -1,0 +1,9 @@
+{
+  "gamma": 4.566e-6,
+  "c":"cost_2dim.csv",
+  "lambda": "lambda_prelimit_2dim_95utilization.csv",
+  "theta": "theta_hourly_2dim.csv",
+  "mu": "mu_hourly_2dim.csv",
+  "agents": "agents_2dim.csv",
+  "state_limits": "state_limits_2dim.csv"
+}

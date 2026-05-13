@@ -1,0 +1,31 @@
+{
+    "eqn_config": {
+       	"eqn_name": "HJB",
+        "dim": 2,
+        "total_time": 1,
+        "num_time_interval":200,
+        "discount_rate":4.566e-6,
+        "theta_file": "/data/theta_hourly_2dim.csv",
+        "cost_file": "/data/cost_2dim.csv",
+        "lambd_file":"/data/lambda_limit_2dim.csv",
+        "zeta_file": "/data/zeta_limit_2dim.csv",
+        "h_net_path":"/h_term/logs_hterm_elu_4hidden_5000epochs/",
+        "drift_net_path":"/drift_term/logs_drift_leaky_relu_4hidden_1000epochs_mu/"
+    },
+
+    "net_config": {
+        "num_neurons":50,
+        "num_layers":2,
+        "activation": "LeakyReLU",
+        "slope":0.1,
+        "gamma": 0.1,
+        "init_learning_rate": 0.01,
+        "milestones":[1000,3000],
+	    "total_iterations":5000,
+        "print_interval":10,
+        "lambd_const":0.6,
+	    "valid_size":4096,
+	    "batch_size":512,
+        "softplus_output":false
+    }
+}

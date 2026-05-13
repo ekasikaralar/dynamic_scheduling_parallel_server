@@ -1,0 +1,12 @@
+{
+  "class_no":100,
+  "station_no":70,
+  "num_obs":1000000,
+  "r": 682,
+  "state_upper_bound":3000,
+  "agent_file": "/data/agents_scaled.csv",
+  "mu_file": "/data/mu_scaled.csv",
+  "cost_file": "/data/cost_scaled.csv",
+  "theta_file":"/data/theta_scaled.csv",
+  "xi_file":"/data/xi_scaled.csv"
+}

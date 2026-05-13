@@ -1,0 +1,13 @@
+{
+  "cust_dim":100,
+  "server_dim":70,
+  "scale": 682,
+  "gradient_file":"/data/gradient_observations.csv",
+  "state_file":"/data/state_observations.csv",
+  "cost_file":"/data/cost_scaled.csv",
+  "mu_file":"/data/mu_scaled.csv",
+  "theta_file":"/data/theta_scaled.csv",
+  "agents_file":"/data/agents_scaled.csv",
+  "xi_file":"/data/xi_scaled.csv",
+  "output_file": "h_term_obj_value_100dim.csv"
+}

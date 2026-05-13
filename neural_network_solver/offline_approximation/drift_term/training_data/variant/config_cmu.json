@@ -1,0 +1,13 @@
+{
+  "cust_dim":13,
+  "server_dim":9,
+  "scale": 100,
+  "policy":"cmu",
+  "state_file":"/project/Call_Center_Control/problem_main_var1/h_term_lp/input_data/state_observations.csv",
+  "cost_file":"/project/Call_Center_Control/problem_main_var1/data/cost_hourly.csv",
+  "mu_file":"/project/Call_Center_Control/problem_main_var1/data/mu_hourly.csv",
+  "theta_file":"/project/Call_Center_Control/problem_main_var1/data/theta_hourly.csv",
+  "agents_file":"/project/Call_Center_Control/problem_main_var1/data/agents.csv",
+  "xi_file":"/project/Call_Center_Control/problem_main_var1/data/xi_optimal_main_100utilization.csv",
+  "output_file":"/project/Call_Center_Control/problem_main_var1/drift_term_lp/drift_term_output_cmu.csv"
+}

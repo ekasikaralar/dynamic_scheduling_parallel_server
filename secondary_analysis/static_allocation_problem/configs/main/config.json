@@ -1,0 +1,9 @@
+{
+  "cust_dim": 13,
+  "server_dim":9,
+  "scaling_factor":100,
+  "prelimit_utilization":0.95,
+  "lambda_file": "lambd_hourly_main_data.csv",
+  "agents_file": "agents.csv",
+  "mu_file": "mu_hourly.csv"
+}

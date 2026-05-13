@@ -1,0 +1,14 @@
+{
+  "class_no": 100,
+  "station_no": 70,
+  "num_iterations": 10000,
+  "arrival_rate": 37524.52,
+  "policy": "cmu",
+  "agents_path": "/data/agents_scaled.csv",
+  "mu_hourly_path":"/data/mu_scaled.csv",
+  "theta_hourly_path":"/data/theta_scaled.csv",
+  "arr_cdf_path":"/data/arr_cdf_scaled.csv",
+  "cost_rate_path":"/data/cost_scaled.csv", 
+  "xi_path":"/data/xi_scaled.csv",
+  "gamma": 4.566e-6
+}
