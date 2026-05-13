@@ -1,3 +1,4 @@
 state_observations.csv filter=lfs diff=lfs merge=lfs -text
 gradient_observations.csv filter=lfs diff=lfs merge=lfs -text
 drift_term_output_*.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text

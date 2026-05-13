@@ -125,7 +125,12 @@ Both networks are trained **offline** before the main solver runs. They are load
 | `variant` | 13 | 9 | Variant of the main problem |
 | `100dim` | 100 | 70 | High-dimensional scaled instance |
 
-> **Note on 100dim observation files:** The state and gradient observation CSVs for the 100-dimensional case (`drift_term/training_data/100dim/state_observations.csv`, `h_term/output_data/configs/100dim/data/state_observations.csv`, `h_term/output_data/configs/100dim/data/gradient_observations.csv`) are 2.5 GB each and exceed GitHub's file size limits. They are not included in this repository. To reproduce them, run Steps 1a–1b of the offline pre-training pipeline for the `100dim` case.
+> **Note on 100dim observation files:** The state and gradient observation CSVs for the 100-dimensional case are 2.5 GB each and exceed GitHub's per-file limit. They are provided as a single zip archive via Git LFS:
+> `neural_network_solver/offline_approximation/100dim_large_observations.zip`
+>
+> After downloading, extract and place the files as follows:
+> - `state_observations.csv` → `drift_term/training_data/100dim/` **and** `h_term/output_data/configs/100dim/data/` (both directories use the same file)
+> - `gradient_observations.csv` → `h_term/output_data/configs/100dim/data/`
 
 ---
 
