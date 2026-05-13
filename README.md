@@ -277,7 +277,7 @@ If you use this code, please cite:
   title   = {Dynamic Scheduling of a Parallel-Server Queueing System:
              A Computational Method for High-Dimensional Problems},
   author  = {Ata, Baris and Kasikaralar, Ebru},
-  year    = {2025},
+  year    = {2026},
   url     = {https://arxiv.org/abs/2605.09799}
 }
 ```
